@@ -6,17 +6,11 @@ import java.time.Instant;
 import java.util.Objects;
 
 public final class ManualReconciliationCommand {
-
     private final DivergenceId divergenceId;
-
     private final ManualDecisionType decisionType;
-
     private final String analyst;
-
     private final String justification;
-
     private final Instant requestedAt;
-
     private ManualReconciliationCommand(
             DivergenceId divergenceId,
             ManualDecisionType decisionType,
