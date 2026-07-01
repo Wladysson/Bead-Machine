@@ -6,19 +6,12 @@ import java.util.Objects;
 public final class StreamLagSnapshot {
 
     private final String consumerGroup;
-
     private final String topic;
-
     private final int partition;
-
     private final long currentOffset;
-
     private final long endOffset;
-
     private final long lag;
-
     private final Instant capturedAt;
-
     private StreamLagSnapshot(
             String consumerGroup,
             String topic,
